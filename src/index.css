@@ -1,0 +1,15 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  color: #222222;
+  font-family: Arial, sans-serif;
+}
+section {
+  border-bottom: 1px solid #e2e8f0;
+}

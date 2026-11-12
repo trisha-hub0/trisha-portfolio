@@ -1,0 +1,229 @@
+
+.experience {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 60px;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+/* Section Heading */
+.section-heading {
+  margin-bottom: 40px;
+}
+
+.section-label {
+  color: #777;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.section-heading h2 {
+  font-size: 36px;
+  margin-top: 8px;
+  color: #172033;
+}
+
+/* Experience Card */
+.experience-card {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 32px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background: #fff;
+  transition: 0.3s ease;
+}
+
+.experience-card:hover {
+  border-color: #c5c5c5;
+  transform: translateY(-3px);
+}
+
+/* Header */
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.experience-header h3 {
+  font-size: 22px;
+  color: #172033;
+}
+
+.experience-header h4 {
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #64748b;
+}
+
+/* Duration and Internship Badge */
+.experience-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.experience-duration {
+  font-size: 14px;
+  color: #64748b;
+}
+
+.experience-type {
+  padding: 6px 12px;
+  background: #f1f5f9;
+  border-radius: 20px;
+  font-size: 12px;
+  color: #475569;
+}
+
+/* Divider */
+.experience-divider {
+  height: 1px;
+  background: #e2e8f0;
+  margin: 25px 0;
+}
+
+/* Description */
+.experience-description {
+  max-width: 800px;
+  line-height: 1.8;
+  color: #64748b;
+  font-size: 15px;
+}
+
+/* Technology Tags */
+.experience-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.experience-tags span {
+  padding: 9px 14px;
+  background: #f1f5f9;
+  border-radius: 5px;
+  font-size: 13px;
+  color: #475569;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .experience {
+    padding: 65px 24px;
+  }
+
+  .section-heading h2 {
+    font-size: 30px;
+  }
+
+  .experience-header {
+    flex-direction: column;
+  }
+
+  .experience-meta {
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 480px) {
+  .experience {
+    padding: 55px 18px;
+  }
+
+  .experience-card {
+    padding: 22px;
+  }
+}
+
+/* Experience responsibilities */
+.experience-responsibilities {
+  margin: 25px 0;
+}
+
+.experience-responsibilities h4 {
+  font-size: 17px;
+  font-weight: 650;
+  color: #1e293b;
+  margin-bottom: 14px;
+}
+
+.experience-responsibilities ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.experience-responsibilities li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  color: #64748b;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.experience-responsibilities li::before {
+  content: "";
+  position: absolute;
+  left: 3px;
+  top: 10px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #2563eb;
+}
+
+/* Experience card */
+.experience-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 30px 32px;
+  background: #ffffff;
+  transition: border-color 0.3s ease,
+              box-shadow 0.3s ease;
+}
+
+.experience-card:hover {
+  border-color: #bfdbfe;
+  box-shadow: 0 10px 30px rgba(37, 99, 235, 0.06);
+}
+
+/* Experience tags */
+.experience-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.experience-tags span {
+  background: #eff6ff;
+  color: #2563eb;
+  padding: 9px 14px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .experience-card {
+    padding: 22px 18px;
+  }
+
+  .experience-header {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .experience-responsibilities li {
+    font-size: 14px;
+  }
+}
